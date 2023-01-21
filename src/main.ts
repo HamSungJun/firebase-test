@@ -1,5 +1,7 @@
 type CalcFunction = ({ a, b }: { a: number; b: number }) => number
 
+// Comment added.
+
 const add: CalcFunction = ({ a, b }) => {
   return a + b
 }
